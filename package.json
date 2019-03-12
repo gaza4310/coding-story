@@ -1,0 +1,54 @@
+{
+  "name": "vue",
+  "description": "A Vue.js project",
+  "version": "1.0.0",
+  "author": "hyunsik <hyunsigigood@naver.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.15",
+    "@fortawesome/free-solid-svg-icons": "^5.7.2",
+    "@fortawesome/vue-fontawesome": "^0.1.5",
+    "axios": "^0.18.0",
+    "bootstrap-vue": "^2.0.0-rc.11",
+    "jquery": "^3.3.1",
+    "v2-datepicker": "^3.1.1",
+    "vue": "^2.5.11",
+    "vue-ads-pagination": "^2.1.4",
+    "vue-bootstrap-datetimepicker": "^5.0.1",
+    "vue-directive-tooltip": "^1.5.0",
+    "vue-nav-tabs": "^0.5.7",
+    "vue-router": "^3.0.2",
+    "vue-switches": "^2.0.1",
+    "vue2-datepicker": "^2.10.0",
+    "vuejs-datepicker": "^1.5.4",
+    "vuejs-toggle-switch": "^1.2.32",
+    "vuelidate": "^0.7.4",
+    "vuex": "^3.0.1"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "cross-env": "^5.0.5",
+    "css-loader": "^0.28.7",
+    "expose-loader": "^0.7.5",
+    "file-loader": "^1.1.4",
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0",
+    "vue-loader": "^13.0.5",
+    "vue-template-compiler": "^2.4.4",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.9.1"
+  }
+}
